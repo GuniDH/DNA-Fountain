@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project implements **DNA Fountain Encoding and Decoding**, a method for storing digital data in DNA sequences. The system **transforms binary data into DNA oligomers** (short sequences of nucleotides) and enables **error-free reconstruction** using a randomized encoding scheme.
+This project implements **DNA Fountain Encoding and Decoding**, a method for storing digital data in DNA sequences. The system **transforms binary data into DNA oligomers** (short sequences of nucleotides) and enables reconstruction using a randomized encoding scheme.
 
 DNA-based storage offers:
 - **High-density data storage**: Can store vast amounts of data in a tiny physical space.
@@ -38,55 +38,10 @@ DNA-based storage offers:
 3. **Use the original seed-based selection** to reconstruct missing data.
 4. **Recover the original binary sequence**.
 
-## Installation
-
-Ensure you have Python installed. Then install any dependencies:
-```sh
-pip install random
-```
-
-## Running the Program
-
-1. **Clone the Repository**
-   ```sh
-   git clone https://github.com/GuniDH/DNA-Fountain.git
-   cd DNA-Fountain
-   ```
-2. **Run the Encoding & Decoding Process**
-   ```sh
-   python q3.py
-   ```
-
-## Example Usage
-
-```python
-from q3 import dna_fountain
-
-dna = dna_fountain(input="11001010 10101100 00110011 11001100", tips_number=16, tip_deg_map={}, tip_dna_map={})
-dna._encode()
-dna._decode()
-```
-
-## Advantages of DNA Storage
-
-| **Feature**               | **Benefit** |
-|---------------------------|-------------|
-| **High Data Density**      | Can store exabytes of data in a small space |
-| **Longevity**             | DNA is stable for thousands of years |
-| **Energy Efficiency**     | No power required after synthesis |
-
 ## Challenges
 
 - **Expensive DNA synthesis & sequencing.**
 - **Slow read/write speeds compared to traditional storage.**
-
-## Contributions
-
-Contributions are welcome! Submit issues and pull requests to enhance the encoding and decoding process.
-
-## License
-
-This project is licensed under the **MIT License**.
 
 ---
 ### Author
