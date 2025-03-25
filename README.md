@@ -1,4 +1,4 @@
-# Improved DNA Fountain by Guni
+# DNA Fountain by Guni
 
 ## Overview
 
