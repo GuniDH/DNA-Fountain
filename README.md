@@ -1,4 +1,4 @@
-# DNA Fountain Encoding & Decoding by Guni
+# Improved DNA Fountain by Guni
 
 ## Overview
 
